@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/austriker27/01-node-ecosystem/issues"
   },
-  "homepage": "https://github.com/austriker27/01-node-ecosystem#readme"
+  "homepage": "https://github.com/austriker27/01-node-ecosystem#readme",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
 }
