@@ -1,0 +1,14 @@
+{
+  "name": "lab-jacob",
+  "version": "1.0.0",
+  "description": "lab 1 node and TDD intro",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jacob",
+  "license": "ISC"
+}
