@@ -3,5 +3,6 @@
 const Greet = module.exports = {};
 
 Greet.hi = (name) => {
-  return `Hello, ${name}!`;
-}
+  if (typeof name !== 'string') return null;
+  return `hello ${name}`;
+};

@@ -4,8 +4,12 @@ const greet = require('../lib/greet');
 
 describe('greet.test.js', () => {
   describe('greet.hi', () => {
-    test('greet.hi("Jeff") should return Hello, Jeff!', () => {
-      expect(greet.hi('Jeff')).toEqual('Hello, Jeff!')
-    })
-  })
-})
+    test('greet.hi(<name>) should return "Hello, <name>!"', () => {
+      expect(greet.hi('Jeff')).toEqual('hello Jeff');
+    });
+    test('greet.hi should return null if input is not a string', () => {
+      expect(greet.hi(true)).toEqual(null);
+
+    });
+  });
+});
