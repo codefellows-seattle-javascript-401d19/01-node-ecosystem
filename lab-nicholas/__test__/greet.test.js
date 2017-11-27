@@ -7,6 +7,7 @@ describe('greet.js', () => {
     test('greet.greet should return hello <name>', () => {
       expect(greet.greet('Demi')).toEqual('Hello Demi');
       expect(greet.greet('Sam')).toEqual('Hello Sam');
+      expect(greet.greet('World')).toEqual('Hello World');
     });
 
     test('greet.greet should return null if error', () => {
