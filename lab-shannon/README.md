@@ -1,0 +1,1 @@
+A program to greet users and perform simple addition/subtraction. The greet function takes one parameter of type 'string'; it returns ____. The arithmetic function takes ____ parameters of type ____; it returns ____.
