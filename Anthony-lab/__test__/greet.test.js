@@ -2,10 +2,11 @@
 
 const greet = require('../lib/greet.js');
 
-test('greet() should return "hello Anthony"', () => {
-  let result = greet('Anthony')
-  expect(result).toEqual('hello Anthony')
-  console.log('anthony');
+// Required Tests
+test('greet() should return null', () => {
+  let result = greet()
+  expect(result).toEqual(null)
+  console.log('null');
 });
 
 test('greet() should return "hello World"', () => {
@@ -14,10 +15,11 @@ test('greet() should return "hello World"', () => {
   console.log('anthony');
 });
 
-test('greet() should return null', () => {
-  let result = greet()
-  expect(result).toEqual(null)
-  console.log('null');
+// Extra Tests
+test('greet() should return "hello Anthony"', () => {
+  let result = greet('Anthony')
+  expect(result).toEqual('hello Anthony')
+  console.log('anthony');
 });
 
 test('greet() should return null', () => {
