@@ -1,0 +1,18 @@
+{
+  "name": "lab-jeff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Jeff Kusowski",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}
