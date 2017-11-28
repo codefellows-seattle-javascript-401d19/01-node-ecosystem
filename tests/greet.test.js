@@ -6,7 +6,6 @@ describe('greet.test.js', () => {
     describe('greet.hi', () => {
   
       test('greet.hi should return “Hello, <name>!” if no errors are present', () => {
-        // vinicio - a test should be as small as possible
         expect(greet.hi('Dalton')).toEqual('Hello, Dalton!');
         expect(greet.hi('Carissa')).toEqual('Hello, Carissa!');
       });
