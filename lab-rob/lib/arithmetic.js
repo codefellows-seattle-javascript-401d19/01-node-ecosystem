@@ -12,3 +12,6 @@ arithmetic.add = function (num1, num2) {
   return arithmetic.areNums(arguments) ? num1 + num2 : null;
 };
 
+arithmetic.sub = function (num1, num2) {
+  return arithmetic.areNums(arguments) ? num1 - num2 : null;
+};
