@@ -8,7 +8,7 @@ module.exports = {
         return a + b;
       }
   },
-    sub: function(a,b){
+  sub: function(a,b){
     if(typeof a !== 'number' || typeof b !== 'number'){
         return null;
       } else {
