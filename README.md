@@ -22,7 +22,7 @@ Configure the root of your repository with the following files and directories. 
 * **.eslintignore** - contains the course linter ignore configuration
 * **lib/** - contains module definitions
 * **__test__/** - contains unit tests
-invo
+
 ## Feature Tasks
 #### Greet Module
 Create a NodeJS module in the lib/ directory named `greet.js` that exports a single function. 
@@ -46,7 +46,7 @@ Create a NodeJS module in the lib/ directory named `arithmetic.js` that exports 
   * This should happen when invoked with `'world'` as the first argument
 
 #### Arithmetic Module Tests
-* Test each method for proper use (invoded with number arguments)
+* Test each method for proper use (invoked with number arguments)
 * Test each method for inproper use (invoked with one or more non-numner arguments)
 
 ## Documentation  
