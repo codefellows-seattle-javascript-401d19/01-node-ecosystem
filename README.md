@@ -22,7 +22,7 @@ Configure the root of your repository with the following files and directories. 
 * **.eslintignore** - contains the course linter ignore configuration
 * **lib/** - contains module definitions
 * **__test__/** - contains unit tests
-
+invo
 ## Feature Tasks
 #### Greet Module
 Create a NodeJS module in the lib/ directory named `greet.js` that exports a single function. 
@@ -47,7 +47,7 @@ Create a NodeJS module in the lib/ directory named `arithmetic.js` that exports 
 
 #### Arithmetic Module Tests
 * Test each method for proper use (invoded with number arguments)
-* Test each method for inproper use (invoded with one or more non-numner arguments)
+* Test each method for inproper use (invoked with one or more non-numner arguments)
 
 ## Documentation  
 In your README.md describe the exported values of each module defined in your lib/ directory. Every function description should include it's airty (expected number of paramiters), the expected data for each paramiter (data-type and limitations), and it's behavior (for both valid and invalued use). Feel free to write any additional information in your README.md.
