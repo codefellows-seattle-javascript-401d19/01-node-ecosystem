@@ -7,6 +7,7 @@ describe('Greet Module testing', () => {
 
   test('greet(<name>) should return "hello <name>" if no errors', () => {
     expect(greet(2)).toBe(null);
+    expect(greet('')).toBe(null);
     expect(greet('foo')).toBe('hello foo');
     expect(greet('bar')).toBe('hello bar');
   });
