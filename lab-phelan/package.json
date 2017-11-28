@@ -1,0 +1,21 @@
+{
+  "name": "lab-phelan",
+  "version": "1.0.0",
+  "description": "Lab 01",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Phelan Carey",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  },
+  "jest": {
+    "verbose" : true
+  }
+}
