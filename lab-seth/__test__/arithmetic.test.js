@@ -9,9 +9,14 @@ describe('arithmetic.test.js', () => {
       expect(arithmetic.add(1, 2)).toEqual(3);
       expect(arithmetic.add('stuff')).toEqual(null);
     });
+  });
 
-    // test('Hi should return null if no errors are present', () => {
-    //   expect(arithmetic.greet(1234567)).toEqual(null);
-    // });
+  describe('arithmetic.sub', () => {
+
+    test('arithmetic.sub should return input2 - input1 if no errors are present', () => {
+      expect(arithmetic.sub(1, 2)).toEqual(1);
+      expect(arithmetic.sub('stuff')).toEqual(null);
+    });
+
   });
 });
