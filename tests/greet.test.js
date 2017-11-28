@@ -10,20 +10,20 @@ describe('greet.test.js', () => {
         expect(greet.hi('Carissa')).toEqual('Hello, Carissa!');
       });
   
-      test('-1 should be returned in case of error', () => {
-        expect(greet.hi('')).toEqual(-1);
+      test('null should be returned if error', () => {
+        expect(greet.hi('')).toEqual(null);
       });
   
     });
     describe('greet.bye', () => {
   
       test('greet.bye should return “Goodbye, <name>!” if no errors are present', () => {
-        expect(greet.bye('Dalton')).toEqual('Goodbye, Dalton!');
+        expect(greet.bye('1')).toEqual('Goodbye, Dalton!');
         expect(greet.bye('Carissa')).toEqual('Goodbye, Carissa!');
       });
   
-      test('-1 should be returned in case of error', () => {
-        expect(greet.bye('')).toEqual(-1);
+      test('null should be returned if error', () => {
+        expect(greet.bye('')).toEqual(null);
 
       });
   
