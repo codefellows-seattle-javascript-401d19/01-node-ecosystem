@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "jest -i"
+    "test": "jest"
   },
   "author": "Anthony Robinson",
   "license": "ISC",
