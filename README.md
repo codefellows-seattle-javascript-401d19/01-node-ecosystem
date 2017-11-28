@@ -5,6 +5,10 @@
 * If the input is not a string, it will return null
 * arithmetic will take two numbers and return either their sum via addition or difference via subtraction
 
+## Functions
+* Greet - *only takes one parameter, a name (string)*
+* Arithmetic - *only takes two parameters (numbers)*
+
 ## Tests  
 * tests are in the [test folder](/__test__)
 
