@@ -29,4 +29,9 @@ describe('sub(num1, num2) should take in two numbers and return the first minus 
     expect(arithmetic.sub('k', '')).toBeNull();
     expect(arithmetic.sub(5,'8')).toBeNull();
   });
+
+  test('sub(num1, num2 should return the difference of the two numbers assuming they are both numbers.', () => {
+    expect(arithmetic.sub(3, 12)).toBe(-9);
+    expect(arithmetic.sub(4.7, 1.8)).toBe(2.9);
+  });
 });
