@@ -1,4 +1,5 @@
 'use strict';
+
 const add = require('../lib/arithmetic').add;
 const sub = require('../lib/arithmetic').sub;
 
