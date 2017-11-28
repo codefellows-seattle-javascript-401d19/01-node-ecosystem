@@ -14,10 +14,10 @@
 * [Jest Globals](https://facebook.github.io/jest/docs/en/api.html#content)
 * [Jest Expect](https://facebook.github.io/jest/docs/en/expect.html#content)
 
-## Configuration 
+## Configuration
 Configure the root of your repository with the following files and directories. Thoughfully name and organize any aditional configuration or module files.
 * **README.md** - contains documentation
-* **.gitignore** - contains a [robust](http://gitignore.io) `.gitignore` file 
+* **.gitignore** - contains a [robust](http://gitignore.io) `.gitignore` file
 * **.eslintrc** - contains the course linter configuratoin
 * **.eslintignore** - contains the course linter ignore configuration
 * **lib/** - contains module definitions
@@ -25,7 +25,7 @@ Configure the root of your repository with the following files and directories. 
 
 ## Feature Tasks
 #### Greet Module
-Create a NodeJS module in the lib/ directory named `greet.js` that exports a single function. 
+Create a NodeJS module in the lib/ directory named `greet.js` that exports a single function.
 * The `greet` function should have a single parameter (arity of one) that should expect a string as it's input
 * The `greet` function should return the input name, concatenated with "hello ": eg. ("hello susan")
 * The `greet` function should return `null` if the input is not a string

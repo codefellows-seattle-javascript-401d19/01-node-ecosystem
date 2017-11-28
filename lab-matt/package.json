@@ -1,0 +1,26 @@
+{
+  "name": "01-node-ecosystem",
+  "version": "1.0.0",
+  "description": "Introduction to jest",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snobeard/01-node-ecosystem.git"
+  },
+  "author": "Matthew LeBlanc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Snobeard/01-node-ecosystem/issues"
+  },
+  "homepage": "https://github.com/Snobeard/01-node-ecosystem#readme",
+  "dependencies": {
+    "jest": "^21.2.1"
+  }
+}
