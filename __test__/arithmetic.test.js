@@ -11,8 +11,10 @@ describe('arithmetic.test.js', () => {
   test('arithmetic.add return null is one param is not a number', () => {
     expect(arithmetic.add(12, '')).toBeNull();
     expect(arithmetic.add('', 12)).toBeNull();
-    expect(arithmetic.add('Pedja', 12)).toBeNull();
-    expect(arithmetic.add(12, 'Pedja')).toBeNull();
+    expect(arithmetic.add('hello', 12)).toBeNull();
+    expect(arithmetic.add(12, 'hello')).toBeNull();
+    expect(arithmetic.add('', '')).toBeNull();
+    expect(arithmetic.add('hello', 'world')).toBeNull();
   });
 
   test('arithmetic.sub has 2 number params and returns second param subtracted from the first one', () => {
@@ -24,6 +26,8 @@ describe('arithmetic.test.js', () => {
     expect(arithmetic.sub('', 12)).toBeNull();
     expect(arithmetic.sub('Pedja', 12)).toBeNull();
     expect(arithmetic.sub(12, 'Pedja')).toBeNull();
+    expect(arithmetic.sub('', '')).toBeNull();
+    expect(arithmetic.sub('hello', 'world')).toBeNull();
   });
 
 });
