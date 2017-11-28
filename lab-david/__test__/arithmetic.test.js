@@ -12,7 +12,7 @@ describe('arithmetic.test.js', () => {
     test('arithmetic.add should return null if either parameter is a non-number', () => {
       expect(arithmetic.add('')).toEqual('null');
     });
-  })
+  });
 
   describe('arithmetic.sub', () => {
         
