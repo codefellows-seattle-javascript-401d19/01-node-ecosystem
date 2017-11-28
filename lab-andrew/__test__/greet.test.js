@@ -6,8 +6,8 @@ describe('greet.test.js', () => {
 
   describe('testing greet.hello function for non string input', () => {
 
-    test('is null returned null', () => {
-      expect(greet.hello(null)).toBeNull();
+    test('is \'\' returned null', () => {
+      expect(greet.hello('')).toBeNull();
     });
 
     test('is a number returned as null', () => {
@@ -19,7 +19,7 @@ describe('greet.test.js', () => {
   describe('testing greet.hello function for legit input', () => {
 
     test('is good input returned properly', () => {
-      expect(greet.hello('Joe')).toBe('Hello, Joe!');
+      expect(greet.hello('world')).toBe('hello world');
     });
 
   });
