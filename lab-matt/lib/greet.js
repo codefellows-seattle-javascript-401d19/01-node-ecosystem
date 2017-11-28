@@ -5,4 +5,4 @@ function greet(string) {
   return `hello ${string}`;
 }
 
-module.export = greet;
+module.exports = greet;
