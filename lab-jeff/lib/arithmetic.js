@@ -1,13 +1,13 @@
 'use strict';
 
-const Arithmetic = module.exports = {};
+const arithmetic = module.exports = {};
 
-Arithmetic.add = (a, b) => {
+arithmetic.add = (a, b) => {
   if (typeof a !== 'number' || typeof b !== 'number') return null;
   return a + b;
 };
 
-Arithmetic.sub = (a, b) => {
+arithmetic.sub = (a, b) => {
   if (typeof a !== 'number' || typeof b !== 'number') return null;
   return a - b;
 };

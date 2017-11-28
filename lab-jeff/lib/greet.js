@@ -1,8 +1,8 @@
 'use strict';
 
-const Greet = module.exports = {};
+const greet = module.exports = {};
 
-Greet.hi = (name) => {
+greet.hi = (name) => {
   if (typeof name !== 'string') return null;
   return `hello ${name}`;
 };
