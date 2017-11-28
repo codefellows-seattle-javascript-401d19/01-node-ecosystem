@@ -1,0 +1,19 @@
+{
+  "name": "01-node-ecosystem",
+  "version": "1.0.0",
+  "description": "Class01_ecosystem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjosifovic/01-node-ecosystem.git"
+  },
+  "author": "Pedja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pjosifovic/01-node-ecosystem/issues"
+  },
+  "homepage": "https://github.com/pjosifovic/01-node-ecosystem#readme"
+}
