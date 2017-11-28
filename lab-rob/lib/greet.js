@@ -1,5 +1,5 @@
 'use strict';
 
-module.exports.greet = name => {
+module.exports = name => {
   return name && typeof name === 'string' ? `hello ${name}` : null;
 };
