@@ -9,8 +9,8 @@ describe('greet.test.js', () => {
   });
 
   test('greet.hi returns null if input is not a string', () => {
-    expect(greet.hi('')).toEqual(null);
-    expect(greet.hi(1234)).toEqual(null);
+    expect(greet.hi('')).toBeNull();
+    expect(greet.hi(1234)).toBeNull();
   });
 
 });
