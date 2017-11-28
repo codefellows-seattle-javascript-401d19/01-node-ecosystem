@@ -1,6 +1,8 @@
 'use strict';
 
-describe('testing hello world function', () => {
+const greet = require('../lib/greet.js')
+
+describe('greet.test.js', () => {
     describe('greet.hi', () => {
         
         test('greet.hi should return "hello world" if no errors are present', () => {
