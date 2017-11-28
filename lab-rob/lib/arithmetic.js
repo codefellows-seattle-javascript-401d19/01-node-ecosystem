@@ -7,3 +7,8 @@ arithmetic.areNums = arry => {
     if(typeof arry[i] !== 'number') return false;
   return arry.length > 0 ? true : false;
 };
+
+arithmetic.add = function (num1, num2) {
+  return arithmetic.areNums(arguments) ? num1 + num2 : null;
+};
+
