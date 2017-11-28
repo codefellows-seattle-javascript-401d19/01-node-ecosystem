@@ -1,17 +1,16 @@
 'use strict';
 
-describe('Showcasing basic TDD with JEST', () => {
-  test('Different ways to use the expect function',() => {
-    let aNumber = 5;
-    expect(aNumber).toEqual(5);
+const greet = require('../lib/greet');
 
-    let aNullvalue = null;
-    expect(aNullvalue).toBeNull();
+describe('greet.test.js', () => {
 
-    let fifty = 50;
-    expect(fifty).toBeLessThan(100);
-    expect(fifty).toBeGreaterThan(25);
-    expect(fifty).toBeGreaterThanOrEqual(50);
-
+  test('greet.hi has single string param and returns "hello <name>', () => {
+    expect(greet.hi('Pedja')).toEqual('hello Pedja');
   });
+
+  test('greet.hi returns null if input is not a string', () => {
+    expect(greet.hi('')).toEqual(null);
+    expect(greet.hi(1234)).toEqual(null);
+  });
+
 });
