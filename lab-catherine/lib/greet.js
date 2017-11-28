@@ -7,5 +7,4 @@ Greet.hello = (name) => {
     return null;
   }
   return `Hello, ${name}`;
-
 };

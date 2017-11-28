@@ -7,7 +7,6 @@ Arithmetic.sum = (numberOne, numberTwo) => {
     return null;
   }
   return numberOne + numberTwo;
-
 };
 
 Arithmetic.sub = (numberOne, numberTwo) => {
