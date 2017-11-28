@@ -16,7 +16,7 @@ describe(`test the arithmetic functions`, () => {
       expect(arithmetic.sub(9,4)).toBe(5);
     })
     test(`the arithmetic.sub function should return 'null' if one or more of the arguments provided is not a number`, () => {
-      expect(arithmetic.sub(`potato`, 7)).toBe(`null`);
+      expect(arithmetic.sub(`sweet potato`, 7)).toBe(`null`);
     })
   })
 });
