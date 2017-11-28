@@ -14,12 +14,19 @@ describe('Helper functions should return a boolean.', () => {
 });
 
 describe('add(num1, num2) method should take in two numbers and return their sum.', () => {
-  test('add(num1, num2) should return the sum of two numbers.', () => {
+  test('If two numbers are given as arguments, add(num1, num2) should return their sum.', () => {
     expect(arithmetic.add(1, 9)).toBe(10);
     expect(arithmetic.add(-9, 5.5)).toBe(-3.5);
   });
 
-  test('add(num1, num2) should return null if either parameter is not a number.', () => {
+  test('If either argument is not a number, add(num1, num2) should return null.', () => {
     expect(arithmetic.add(1, 'a')).toBeNull();
+  });
+});
+
+describe('sub(num1, num2) should take in two numbers and return the first minus the second.', () => {
+  test('If either argument is not a number, sub(num1, num2) should return null.', () => {
+    expect(arithmetic.sub('k', '')).toBeNull();
+    expect(arithmetic.sub(5,'8')).toBeNull();
   });
 });
