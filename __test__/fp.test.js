@@ -26,9 +26,9 @@ describe('fp.test.js', () => {
       expect(ourFunctions.map(x => x * 2, [2, 3, 4])).toEqual([4, 6, 8]);
     }); 
 
-    test('', () => {
+    test('If not a function, throw a error.', () => {
       expect(() => {
-        ourFunctions.map();
+        ourFunctions.map('', [2, 3, 4]);
       }
       ).toThrow();
     });
@@ -40,9 +40,9 @@ describe('fp.test.js', () => {
       expect(ourFunctions.filter(x => !(x % 2), [1, 2, 3, 4, 5, 6, 7, 8, 9, 10])).toEqual([2, 4, 6, 8, 10]);
     });
 
-    test('', () => {
+    test('If not a function, throw a error.', () => {
       expect(() => {
-        ourFunctions.filter();
+        ourFunctions.filter('', [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
       }
       ).toThrow();
     });
@@ -54,9 +54,9 @@ describe('fp.test.js', () => {
       expect(ourFunctions.slice(0, 5, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10])).toEqual([1, 2, 3, 4, 5]);
     });
 
-    test('', () => {
+    test('If not an object, throw a error.', () => {
       expect(() => {
-        ourFunctions.slice();
+        ourFunctions.slice('', [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
       }
       ).toThrow();
     });
