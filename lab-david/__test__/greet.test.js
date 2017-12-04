@@ -13,4 +13,4 @@ describe('greet.test.js', () => {
       expect(greet.hi('')).toEqual('null');
     });
   });
-})
+});
