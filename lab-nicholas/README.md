@@ -1,5 +1,5 @@
 # arithmetic.js
-##arithmetic.sum
+##arithmetic.sum 
 arithmetic.sum takes in two numbers, 'a' and 'b' and returns their sum. there is input validation to make sure they are both numbers and 'null' is returned if there is an error.
 ##arithmetic.sub
 arithmetic.sub takes in two numbers, 'a' and 'b' and returns their difference. there is input validation to make sure they are both numbers and 'null' is returned if there is an error.
