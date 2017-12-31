@@ -23,6 +23,10 @@ describe('arithmetic.js', () => {
       expect(sub(1,2)).toBe(-1);
     });
 
+    test('sub(<string>, <number>) should return null', () => {
+      expect(sub('string', 5)).toBe(null);
+    });
+
     test('sub("string") should return null', () => {
       expect(sub('string')).toBe(null);
     });
