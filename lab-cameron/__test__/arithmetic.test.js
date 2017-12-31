@@ -8,6 +8,10 @@ describe('arithmetic.js', () => {
     expect(add(2,3)).toBe(5);
   });
 
+  test('add(<string>, <number>) should return null', () => {
+    expect(add('string', 5)).toBe(null);
+  });
+
   test('add("string") should return null', () => {
     expect(add('string')).toBe(null);
   });
