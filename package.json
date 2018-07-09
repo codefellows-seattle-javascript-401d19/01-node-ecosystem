@@ -1,0 +1,30 @@
+{
+  "name": "01-node-ecosystem",
+  "version": "1.0.0",
+  "description": "greet and arithmetic modules and tests for each",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FenrisWolfe/01-node-ecosystem.git"
+  },
+  "author": "Fredric Thomas Rapp Jr.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FenrisWolfe/01-node-ecosystem/issues"
+  },
+  "homepage": "https://github.com/FenrisWolfe/01-node-ecosystem#readme",
+  "dependencies": {
+    "jest": "^21.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.0",
+    "eslint-plugin-react": "^7.5.1"
+  }
+}
